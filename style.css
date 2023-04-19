@@ -38,3 +38,68 @@ nav ul li{
     font-weight:bolder;
     font-size: 1.3rem;
 }
+
+.container{
+    min-height: 75vh;
+}
+
+.bottom{
+    position:sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+#myprogressbar{
+      width: 80vw;
+      text-align: center;
+}
+
+.backward img{
+    width: 50px;
+    padding: 6px;
+
+}
+
+.backward{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+
+.play img{
+    width: 50px;
+    padding: 6px;
+
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+
+.forward img{
+    width: 50px;
+    padding: 6px;
+
+}
+
+.forward{
+    display: flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+
+
