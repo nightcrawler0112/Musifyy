@@ -90,7 +90,7 @@ nav ul li{
     background-color: white;
     color: black;
     margin: 12px 0; 
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-radius: 40px;
 
