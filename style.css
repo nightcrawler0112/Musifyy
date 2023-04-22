@@ -50,13 +50,12 @@ nav ul li{
     border-radius: 12px;
     padding: 15px;
     background-image: url(background.jpg);
-    background-size: contain;
 
 }
 
 .bottom{
     position:sticky;
-    height: 55px;
+    height: 80px;
     background-color: black;
     color:white;
     bottom: 0;
@@ -79,18 +78,20 @@ nav ul li{
       width: 80vw;
       text-align: center;
 }
+.SongItemContainer{
+    margin-top: 30px;
+
+}
 
 .SongItem{
     height: 60px;
     display: flex;
     background-color: white;
-    width: 80%;
     color: black;
     margin: 12px 0; 
     justify-content: space-around;
     align-items: center;
     border-radius: 40px;
-
 
 }
 
@@ -99,5 +100,16 @@ nav ul li{
     margin: 0 25px;
     
 }
+
+.timestamp{
+    margin :0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+
+
 
 
