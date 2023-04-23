@@ -40,18 +40,39 @@ nav ul li{
 }
 
 .container{
-    min-height: 72vh;
+    min-height: 100vh;
     background-color: black;
     color: white;
     font-family: 'Rubik', sans-serif;
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 23px auto;
     border-radius: 12px;
     padding: 15px;
     background-image: url(background.jpg);
 
 }
+
+.playlists {
+    width: 30%;
+    height: 100vh;
+  }
+  
+  .playlist-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  
+  .playlist-item:hover {
+    cursor: pointer;
+  }
+
+  .playlist-item img{
+    width: 50px;
+    margin: 0 20px;
+  }
 
 .bottom{
     position:sticky;
